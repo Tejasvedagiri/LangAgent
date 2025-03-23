@@ -1,8 +1,18 @@
-from typing import Any, Dict, Iterator, List, Mapping, Optional
+from langchain_openai import ChatOpenAI
+from lang_agent.decorators.singleton import singleton_with_variable
+from langchain_core.language_models import BaseLanguageModel
 
-from langchain_core.callbacks.manager import CallbackManagerForLLMRun
-from langchain_core.language_models.llms import LLM
-from langchain_core.outputs import GenerationChunk
+@singleton_with_variable
+class LocalLLM:
+    llm = None
+    def __init__(self):
+        self.llm = ChatOpenAI(
+                        temperature=0,
+                        base_url="http://192.168.0.111:1234/v1",
+                        model="meta-llama-3-8b-instruct-abliterated-v3",
+                        max_tokens=500,
+                        api_key="dummy"
+        )
 
-class LocalLLM(LLM):
-    pass
+    def get_llm(self) -> BaseLanguageModel:
+        return self.llm
