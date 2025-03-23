@@ -1,0 +1,198 @@
+(base) ➜  ~ lms log stream
+Streaming logs from LM Studio
+
+timestamp: 3/23/2025, 2:57:16 PM
+type: llm.prediction.input
+modelIdentifier: meta-llama-3-8b-instruct-abliterated-v3
+modelPath: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/Meta-Llama-3-8B-Instruct-abliterated-v3_q4.gguf
+input: "<|start_header_id|>user<|end_header_id|>
+
+Answer the following questions as best you can. You have access to the following tools:
+
+Crawl Google for LinkedIn Profile Page(name: str) - Method to get LinkedIn Profile Page URL
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [Crawl Google for LinkedIn Profile Page]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: text='\n        Given the full name of Tejas Vedagiri. I want you to get me the LinkedIn profile page URL.\n        The answer must only contain the LinkedIn URL.\n    '
+Thought:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"
+
+
+timestamp: 3/23/2025, 2:57:21 PM
+type: llm.prediction.input
+modelIdentifier: meta-llama-3-8b-instruct-abliterated-v3
+modelPath: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/Meta-Llama-3-8B-Instruct-abliterated-v3_q4.gguf
+input: "<|start_header_id|>user<|end_header_id|>
+
+Answer the following questions as best you can. You have access to the following tools:
+
+Crawl Google for LinkedIn Profile Page(name: str) - Method to get LinkedIn Profile Page URL
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [Crawl Google for LinkedIn Profile Page]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: text='\n        Given the full name of Tejas Vedagiri. I want you to get me the LinkedIn profile page URL.\n        The answer must only contain the LinkedIn URL.\n    '
+Thought:Let's get started.
+
+Thought: To get the LinkedIn profile page URL, I need to crawl Google for the profile page using the full name "Tejas Vedagiri".
+
+Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"
+
+
+timestamp: 3/23/2025, 2:57:28 PM
+type: llm.prediction.input
+modelIdentifier: meta-llama-3-8b-instruct-abliterated-v3
+modelPath: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/Meta-Llama-3-8B-Instruct-abliterated-v3_q4.gguf
+input: "<|start_header_id|>user<|end_header_id|>
+
+Answer the following questions as best you can. You have access to the following tools:
+
+Crawl Google for LinkedIn Profile Page(name: str) - Method to get LinkedIn Profile Page URL
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [Crawl Google for LinkedIn Profile Page]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: text='\n        Given the full name of Tejas Vedagiri. I want you to get me the LinkedIn profile page URL.\n        The answer must only contain the LinkedIn URL.\n    '
+Thought:Let's get started.
+
+Thought: To get the LinkedIn profile page URL, I need to crawl Google for the profile page using the full name "Tejas Vedagiri".
+
+Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought: Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"
+
+
+timestamp: 3/23/2025, 2:57:35 PM
+type: llm.prediction.input
+modelIdentifier: meta-llama-3-8b-instruct-abliterated-v3
+modelPath: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/Meta-Llama-3-8B-Instruct-abliterated-v3_q4.gguf
+input: "<|start_header_id|>user<|end_header_id|>
+
+Answer the following questions as best you can. You have access to the following tools:
+
+Crawl Google for LinkedIn Profile Page(name: str) - Method to get LinkedIn Profile Page URL
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [Crawl Google for LinkedIn Profile Page]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: text='\n        Given the full name of Tejas Vedagiri. I want you to get me the LinkedIn profile page URL.\n        The answer must only contain the LinkedIn URL.\n    '
+Thought:Let's get started.
+
+Thought: To get the LinkedIn profile page URL, I need to crawl Google for the profile page using the full name "Tejas Vedagiri".
+
+Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought: Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought: Thought: The observation shows that the Crawl Google for LinkedIn Profile Page action was successful, and it returned a list of search results with URLs. I need to extract the LinkedIn profile page URL from this list.
+
+Action: Extract LinkedIn Profile Page URL
+Action Input: None (assuming we already have the list of search results
+Observation: Extract LinkedIn Profile Page URL is not a valid tool, try one of [Crawl Google for LinkedIn Profile Page].
+Thought:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+"
+
+
+timestamp: 3/23/2025, 2:57:40 PM
+type: llm.prediction.input
+modelIdentifier: meta-llama-3-8b-instruct-abliterated-v3
+modelPath: failspy/Meta-Llama-3-8B-Instruct-abliterated-v3-GGUF/Meta-Llama-3-8B-Instruct-abliterated-v3_q4.gguf
+input: "<|start_header_id|>user<|end_header_id|>
+
+Answer the following questions as best you can. You have access to the following tools:
+
+Crawl Google for LinkedIn Profile Page(name: str) - Method to get LinkedIn Profile Page URL
+
+Use the following format:
+
+Question: the input question you must answer
+Thought: you should always think about what to do
+Action: the action to take, should be one of [Crawl Google for LinkedIn Profile Page]
+Action Input: the input to the action
+Observation: the result of the action
+... (this Thought/Action/Action Input/Observation can repeat N times)
+Thought: I now know the final answer
+Final Answer: the final answer to the original input question
+
+Begin!
+
+Question: text='\n        Given the full name of Tejas Vedagiri. I want you to get me the LinkedIn profile page URL.\n        The answer must only contain the LinkedIn URL.\n    '
+Thought:Let's get started.
+
+Thought: To get the LinkedIn profile page URL, I need to crawl Google for the profile page using the full name "Tejas Vedagiri".
+
+Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought: Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] Software Engineer at Temenos (https://www.linkedin.com/company/temenos)\nFeb 2018 - Oct 2020\nBengaluru, Karnataka, India\n\n\nEducation:\nFlorida State University\nMaster's degree, Computer Science\nAug 2022 - May 2024\nGrade: N/A\nActivities and societies: N/A\n\nNitte Meenakshi Institute of Technology\nBachelor of Engineering - BE, Computer Science\nJan 2014 - Dec 2018\nGrade: N/A\nActivities and societies: N/A", 'score': 0.5990639427777777}, {'title': 'Tejas Vedagiri (@tejasvedagiri) / X', 'url': 'https://twitter.com/tejasvedagiri', 'content': 'http://bitly.xaijo.com/chandra My business is awkward smiles and poorly executed high-fives, and business is good. Tejas Vedagiri.', 'score': 0.49806575000000003}, {'title': 'Tejas Vedagiri (@tejasvedagiri) • Instagram photos and videos', 'url': 'https://www.instagram.com/tejasvedagiri/', 'content': '257 following. This account is private. Already follow tejasvedagiri? Switch to the app or log in to see their photos and videos. Switch to the App.', 'score': 0.29837011111111117}, {'title': 'Contact - FSU Marine Data Center (MDC)', 'url': 'https://mdc.coaps.fsu.edu/marineflux/contact', 'content': 'Tejas Vedagiri – Graduate Student, User interface developer; Marc Castells - Graduate student, SAMOS fluxes; Ethan Wright – Graduate student, Triple', 'score': 0.2542113}, {'title': 'Tejas Vedagiri - Facebook', 'url': 'https://www.facebook.com/tejas.vedagiri', 'content': 'Tejas Vedagiri · Studies at Nitte Meenakshi Institute of Technology · Studied at mes kk · Went to MES Kishore Kendra', 'score': 0.18411504222222222}]
+Thought: Thought: The observation shows that the Crawl Google for LinkedIn Profile Page action was successful, and it returned a list of search results with URLs. I need to extract the LinkedIn profile page URL from this list.
+
+Action: Extract LinkedIn Profile Page URL
+Action Input: None (assuming we already have the list of search results
+Observation: Extract LinkedIn Profile Page URL is not a valid tool, try one of [Crawl Google for LinkedIn Profile Page].
+Thought: Let's continue!
+
+Thought: I need to extract the LinkedIn profile page URL from the list of search results.
+
+Action: Crawl Google for LinkedIn Profile Page
+Action Input: Tejas Vedagiri (assuming we already have the list of search results
+Observation: [{'title': 'TEJAS VEDAGIRI - Software Engineer - Walmart - LinkedIn', 'url': 'https://www.linkedin.com/in/tejas-vedagiri-66ab07174/', 'content': "Data Architecture; Joomla!; FastAPI; ERDDAP; Solr; Hive; Apache Phoenix; Cassandra; HDFS; Government; Data Architects; Data Loading; Engineering Data Management; Extract, Transform, Load (ETL); Core Java; Spring Framework; Spring MVC; Spring Boot; Spring Data; Apache Kafka; MapReduce; Big Data; Big Data Analytics; Google Cloud Platform (GCP); Microsoft Azure; Azure SQL; Azure DevOps Services; Microsoft Azure Machine Learning; Azure DevOps Server; Azure Data Factory; Azure Databricks; Azure Data [...] About:\nLed the successful completion of complex software projects, utilizing my expertise in Apache Spark, resulting in a 70% cost reduction and saving over 100 hours per week. Currently pursuing a master's at Florida State University. My career spans multiple programming languages, Databases and tools, specializing in transforming proof of concepts into enterprise software. Actively engage in machine learning and deep learning projects within the Big Data ecosystem. [...] Experience:\nSoftware Engineer at Walmart (https://www.linkedin.com/company/walmart)\nMay 2024 - Present\nBentonville, Arkansas, United States\n\nStudent Worker at Center for Ocean-Atmospheric Prediction Studies (https://www.linkedin.com/company/center-for-ocean-atmospheric-prediction-studies)\nSep 2022 - May 2024\nTallahassee, Florida, United States\n\nSoftware Engineer at Walmart Global Tech (https://www.linkedin.com/company/walmartglobaltech)\nOct 2020 - Aug 2022\nIndia", 'score': 0.3765487344444445}, {'title': '[PDF] Varadaraja Stavam v1.pdf - sadagopan.org', 'url': 'https://sadagopan.org/ebook/pdf/Varadaraja%20Stavam%20v1.pdf', 'content': 'In the year 1273 C.E., Swamy Desikan as a five year old was brought before. NadadUr AmmAL, who was struck with the tejas of the child (nephew of his disciple)', 'score': 0.036678575}, {'title': 'Molecular phylogenetics and taxonomic reassessment of the ...', 'url': 'https://vertebrate-zoology.arphahub.com/article/62787/list/18/', 'content': 'Phylogenetic analyses revealed four well-supported, deeply-divergent lineages, supported by morphological data. These lineages represent (i) C. versicolor sensu', 'score': 0.008565789333333332}, {'title': 'What are some physical characteristics that can help identify ... - Quora', 'url': 'https://www.quora.com/What-are-some-physical-characteristics-that-can-help-identify-a-genuine-Tamil-Nadu-Brahmin', 'content': 'Tamil Brahmins will usually be fair skinned or at least wheatish brown in skin colour, the Non Brahmins will be dark brown or darker in', 'score': 0.0063356132777777786}, {'title': '[PDF] DHARMA DHWAJA - Kanchi Kamakoti Peetam', 'url': 'https://www.kamakoti.org/kamakoti/books/Dharma-Dwaja.pdf', 'content': "I am beholden to Pandita Veda and his associates for the Dharma Prachara of the Purohita website. He acknowledges to state: ‗ It's a wonderful feeling when a", 'score': 0.004963215}]
+Thought:<|eot_id|><|start_header_id|>assistant<|end_header_id|>
